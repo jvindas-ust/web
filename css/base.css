@@ -228,3 +228,33 @@ a:focus {
 		justify-content: center;
 	}
 }
+
+body{
+	font-family: 'PT Sans', sans-serif;
+	background-color: #FFF;
+}
+.menubtn{
+	z-index: 999;
+	position: absolute;
+	top: 5%;
+	left: 3%;
+	background: #0099cc;
+}
+.menubtn:hover{
+	background: #0285b1;	
+}
+.st-menu{
+	background: #0099cc;
+}
+.icon-lab:before{
+	display: none;
+}
+.icon.icon-lab{
+background: url(https://www.trainingintech.com/wp-content/uploads/2017/08/akamailogo.png);
+width: 100px;
+height: 100px;
+background-size: contain;
+background-repeat: no-repeat;
+margin: 10px 20px;
+padding-left: 130px;
+}
